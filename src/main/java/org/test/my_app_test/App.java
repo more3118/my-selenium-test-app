@@ -27,7 +27,7 @@ public class App {
 
 		// 1. Open the URL
 		// driver.get("http://13.58.166.105:8080/addressbook-2.0/");
-		driver.get("http://localhost:80/contact.html"); //testserver
+		driver.get("http://localhost:8081/contact.html"); //testserver
 		// driver.get("http://3a4b6134d2534cdea78206a8a732729f3c.mylabserver.com/contact.html"); //prod
 		// invoke implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
